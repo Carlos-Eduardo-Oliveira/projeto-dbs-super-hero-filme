@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#container-titulo {
+    width: 100%;
+    height: 100px;
+}
+
+.titulo-principal {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-principal {
+    height: 100%;
+}
+
+.foto-1 {
+    width: 70%;
+    padding: 15px 15%;
+}
+
+.descricao-1 {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 15px 15%;
+    font-size: 17px;
+}
+
+.descricao-2 {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 15px 15%;
+    font-size: 17px;
+}
+
+.foto-2 {
+    width: 70%;
+    padding: 15px 15%;
+}
+
+.descricao-3 {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 15px 15%;
+    font-size: 17px;
+}
+
+.foto-3 {
+    width: 70%;
+    padding: 15px 15%;
+}
+
+.descricao-4 {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 15px 15%;
+    font-size: 17px;
+}
+
+.descricao-5 {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 15px 15%;
+    font-size: 17px;
+}
+
+footer{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .titulo-principal {
+        font-size: 20px;
+        padding: 0 10%;
+    }
+        
+}

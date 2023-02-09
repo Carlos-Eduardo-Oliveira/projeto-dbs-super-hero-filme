@@ -1,0 +1,22 @@
+@media(max-width: 768px) {
+   .footer-navigation {
+        display: block;
+   } 
+
+   nav {
+        display: none;
+   }
+
+   .cards-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+   }
+
+   .card {
+        width: 70%;
+        height: 420px;
+   }
+}

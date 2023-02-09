@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-image: url('https://www.waifuwatch.com/wp-content/uploads/2020/01/Top-5-DBZ-Header.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 17px;
+}
+
+.descricao {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 95%;
+    padding-top: 70px;
+}
+
+.botao {
+    width: 100%;
+    height: 60px;
+    background-color: #d21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.botao:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.characters-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%; 
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 0 20px 10px;
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.characters-1 {
+    background-image: url('https://i.pinimg.com/564x/6a/1f/99/6a1f990709dcd00edf37a3a4ac1bd6d4.jpg');
+}
+
+.characters-2 {
+    background-image: url('https://i.pinimg.com/564x/0e/38/80/0e38800bb8ac234b21eb4e11990a0423.jpg');
+}
+
+.characters-3 {
+    background-image: url('https://i.pinimg.com/564x/84/a8/5c/84a85c136f4f6e9f214e4ddb04c94c5a.jpg');
+}
+
+.characters-4 {
+    background-image: url('https://i.pinimg.com/564x/01/36/c8/0136c81eb61f770e60556962e0de3307.jpg');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
